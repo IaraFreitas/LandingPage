@@ -1,9 +1,11 @@
+/*declaração GLOBAL, ou seja, reflete na página toda como um padrão*/
 *{
 margin: 0;
 padding: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Inicio do HEADER - cabeçalho*/
 header{
     display: flex;
     padding: 2rem;
@@ -20,29 +22,26 @@ header{
 }
 
 .menu .Three{
-    
     border-style: solid black;
 }
 
 header nav li{
     list-style: none;
     margin-left: 8rem;
-    
 }
 
 header nav li a{
     text-decoration: none;
     color: black;
     font-size: 1.3em;
-    
 }
 
 header nav li .Three{
     border-style: solid;
     
-    
 }
 
+/*inicio da sessão ONE - primeira parte da landingPage*/
 #One{
     background-image: url(img/LotusTwo.jpg);
     padding: 18rem 4rem;
@@ -56,82 +55,167 @@ header nav li .Three{
 
 #One hr{
     width: 10rem;
-    
+    margin-bottom: 30px;
+    /*como centralizar, colocar cor e deixar + grosso o hr?*/
 }
 
+/*inicio da sessão TWO - segunda parte da landingPage*/
 #Two{
     background-color: rgba(128, 128, 128, 0.25);
-    padding: 18rem 4rem;
-    margin-top: 8.5rem;
-}
+    padding: 18rem 17rem;
 
-#Two hr{
-    width: 10rem;
+    /*padding: 18rem 17rem; esta medida não oculta os dados + não deixa a distancia superior do meu agrado. 
+    Como diminuir o espaço na parte acima do sub-título?*/
+    margin-top: 8.5rem;
+    
 }
 
 #Two h2{
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: -40px;
+}
+
+#Two hr{
+    width: 10rem;
+    margin-bottom: 30px;
+    /*como centralizar, colocar cor e deixar + grosso o hr?*/
 }
 
 #Two div{
     width: 20rem;
     height: 11rem;
     display: flex;
-    padding: 5px;
-    
+   
 }
 
-#Two .A{
+#Two .imgA{
     display: block;
     
 }
 
-#Two .A p{
+#Two div{
+    gap: 3rem;
+    
+}
+
+#Two .imgA p{
     background-color: white;
     margin-top: -7px;
-    
+    padding: 5rem;
 }
 
-#Two .B{
+#Two .imgB{
     display: block;
 }
 
-#Two .C{
+#Two .imgB p{
+    background-color: white;
+    margin-top: -7px;
+    padding: 5rem;
+}
+
+#Two .imgC{
     display: block;
 }
 
+#Two .imgC p{
+    background-color: white;
+    margin-top: -7px;
+    padding: 5rem;
+}
 
+
+/*inicio da sessão THREE - terceira parte da landingPage*/
 #Three{
     display: flex;
 }
 
+#Three #texto{
+    padding: 8rem;
+    font-size: 1.4rem;
+}
 
-#Four{
-    background-color: rgba(128, 128, 128, 0.25);
-    padding: 7rem 9rem;
+#Three #texto h3{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#Three #texto hr{
+    width: 2em;
+    margin-bottom: 30px;
 }
 
 
-
-footer{
-    padding: 2rem;
-    display: flex;
+#Three #texto p{
+    text-align: justify;
     
 }
 
-footer .B {
-    display: flex;
-    gap: 8rem;
+/*inicio da sessão FOUR - quarta parte da landingPage*/
+#Four{
+    background-color: rgba(128, 128, 128, 0.25);
+    padding: 7rem 9rem;
+    text-align: center;
 }
 
-footer .B li{
+
+#Four h2{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+#Four h3{
+    margin-bottom: 20px;
+    
+}
+
+#Four input{
+    width: 25rem;
+    height: 3rem;
+    margin-left: 15px;
+    background-color: rgb(232, 229, 229);
+    border-color: white;
+    
+}
+
+#Four ::placeholder{
+    margin-left: 10rem;
+}
+
+#Four button{
+    margin-top: 20px;
+    width: 13rem;
+    height: 3rem;
+    background-color: rgba(153, 153, 153, 0.012);
+    
+}
+
+
+/*FOOTER - rodapé*/
+footer{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer .redeSocial{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+footer .menu {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .menu li{
     list-style: none;
 
 }
 
-footer .B a{
+footer .menu a{
     text-decoration: none;
     color: black;
 }
