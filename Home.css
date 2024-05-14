@@ -51,6 +51,7 @@ header nav li a{
     margin-top: -7.5rem;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 1rem;
 }
 
 #One hr{
@@ -205,4 +206,5 @@ footer .menu li{
 footer .menu a{
     text-decoration: none;
     color: black;
+    font-size: 1.3em;
 }
