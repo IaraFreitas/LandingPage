@@ -42,90 +42,72 @@ header nav li a{
 /*inicio da sessão ONE - primeira parte da landingPage*/
 #One{
     background-image: url(img/LotusTwo.jpg);
-    padding: 18rem 4rem;
+    padding: 18rem;
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
     text-align: center;
     font-size: 2em;
-    margin: -7.5rem 0.8rem ;
+    margin-top: -7.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #One hr{
     width: 5rem;
     height: 4px;
     background-color: rgba(128, 128, 128, 0.749);
-    margin: 15px auto;
-    
+    margin: 20px auto;
 }
 
 /*inicio da sessão TWO - segunda parte da landingPage*/
 #Two{
-    background-color: rgba(128, 128, 128, 0.25);
-    padding: 18rem 17rem;
-
-    /*padding: 18rem 17rem; esta medida não oculta os dados + não deixa a distancia superior do meu agrado. 
-    Como diminuir o espaço na parte acima do sub-título?*/
-    margin-top: 8.5rem;
-    
-}
-
-#Two h2{
     text-align: center;
+    padding: 7rem;
+    background-color: rgba(128, 128, 128, 0.25);
 }
 
 #Two hr{
     width: 5rem;
     height: 4px;
     background-color: rgba(128, 128, 128, 0.749);
-    margin: 15px auto;
+    margin: 20px auto;
+
 }
 
-#Two div{
-    width: 20rem;
-    height: 11rem;
+#pai{
     display: flex;
-   
+    justify-content: center;
+    height: 60vh;
+    margin-top: 3rem;
+    gap: 25px;
 }
 
-#Two .imgA{
-    display: block;
-    
+#pai hr{
+    width: 35px;
+    height: 0.3vh;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.749);;
+    margin-top: 3rem;
 }
 
-#Two div{
-    gap: 3rem;
-    
+#pai p{
+    margin-top: 2.5rem;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
 }
 
-
-
-#Two .imgA p{
+#pai div{
     background-color: white;
-    margin-top: -7px;
-    padding: 5rem;
+    width: 20rem;
+    height:28rem;
+    box-shadow: 6px 6px 10px black;
 }
 
-#Two .imgB{
-    display: block;
+#pai div img{
+    width: 100%;
+    height: 60%;
 }
-
-#Two .imgB p{
-    background-color: white;
-    margin-top: -7px;
-    padding: 5rem;
-}
-
-#Two .imgC{
-    display: block;
-}
-
-#Two .imgC p{
-    background-color: white;
-    margin-top: -7px;
-    padding: 5rem;
-}
-
 
 /*inicio da sessão THREE - terceira parte da landingPage*/
 #Three{
