@@ -21,8 +21,9 @@ header{
     margin-right: 4rem;
 }
 
-.menu .Three{
-    border-style: solid black;
+.menu .Three {
+    padding: 5px 5px;
+    border: solid;
 }
 
 header nav li{
@@ -36,10 +37,7 @@ header nav li a{
     font-size: 1.3em;
 }
 
-header nav li .Three{
-    border-style: solid;
-    
-}
+
 
 /*inicio da sessão ONE - primeira parte da landingPage*/
 #One{
@@ -54,9 +52,11 @@ header nav li .Three{
 }
 
 #One hr{
-    width: 10rem;
-    margin-bottom: 30px;
-    /*como centralizar, colocar cor e deixar + grosso o hr?*/
+    width: 5rem;
+    height: 4px;
+    background-color: rgba(128, 128, 128, 0.749);
+    margin: 15px auto;
+    
 }
 
 /*inicio da sessão TWO - segunda parte da landingPage*/
@@ -75,9 +75,10 @@ header nav li .Three{
 }
 
 #Two hr{
-    width: 10rem;
-    margin-bottom: 30px;
-    /*como centralizar, colocar cor e deixar + grosso o hr?*/
+    width: 5rem;
+    height: 4px;
+    background-color: rgba(128, 128, 128, 0.749);
+    margin: 15px auto;
 }
 
 #Two div{
@@ -96,6 +97,8 @@ header nav li .Three{
     gap: 3rem;
     
 }
+
+
 
 #Two .imgA p{
     background-color: white;
@@ -140,8 +143,10 @@ header nav li .Three{
 }
 
 #Three #texto hr{
-    width: 2em;
-    margin-bottom: 30px;
+    width: 5rem;
+    height: 4px;
+    background-color: rgba(128, 128, 128, 0.749);
+    margin: 15px auto;
 }
 
 
