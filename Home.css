@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 2rem;
+    position: sticky;
+    margin: 0;
+    top: 0;
+    
+}
+
+header nav {
+    display: flex;
+    gap: 8rem;
+}
+
+header nav li{
+    list-style: none;
+
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#One{
+    background-image: url(img/backOne.jpg);
+    padding: 14rem 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 5px 5px;
+}
+
+#Two{
+    background-color: rgba(128, 128, 128, 0.25);
+    padding: 7rem 9rem;
+    
+}
+
+#Two h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+#Two div{
+    width: 20rem;
+    height: 11rem;
+    display: flex;
+    padding: 5px;
+    
+}
+
+#Two .A{
+    display: block;
+    
+}
+
+#Two .A p{
+    background-color: white;
+    margin-top: -7px;
+    
+}
+
+#Two .B{
+    display: block;
+}
+
+#Two .C{
+    display: block;
+}
+
+
+#Three{
+    display: flex;
+}
+
+
+#Four{
+    background-color: rgba(128, 128, 128, 0.25);
+    padding: 7rem 9rem;
+}
+
+
+
+footer{
+    padding: 2rem;
+    display: flex;
+    
+}
+
+footer .B {
+    display: flex;
+    gap: 8rem;
+}
+
+footer .B li{
+    list-style: none;
+
+}
+
+footer .B a{
+    text-decoration: none;
+    color: black;
+}
