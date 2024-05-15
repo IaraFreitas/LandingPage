@@ -48,7 +48,7 @@ header nav li a{
     color: black;
     text-align: center;
     font-size: 2em;
-    margin-top: -7.5rem;
+    margin-top: -8rem;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 1rem;
@@ -166,7 +166,7 @@ header nav li a{
 }
 
 #Four ::placeholder{
-    margin-left: 10rem;
+    margin-left: 20rem;
 }
 
 #Four button{
