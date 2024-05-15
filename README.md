@@ -5,5 +5,5 @@
  
 
 Qr Code do site
-<img src="img/QrCode.png" width="50px" alt="QrCode">
+<img src="img/QrCode.png" width="150px" alt="QrCode">
 
