@@ -208,3 +208,11 @@ footer .menu a{
     color: black;
     font-size: 1.3em;
 }
+
+
+@media screen and (max-width: 480px){
+    header{
+        
+    }
+}
+    
