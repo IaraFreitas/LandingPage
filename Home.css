@@ -211,6 +211,12 @@ footer .menu a{
 
 
 @media screen and (max-width: 460px){
-    
+    body{
+        padding: 3vw;
+    }
+
+    header{
+        padding: 3vw;
+    }
 }
     
