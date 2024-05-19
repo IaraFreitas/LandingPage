@@ -208,6 +208,7 @@ footer .menu a{
     font-size: 1.3em;
 }
 
+
 /*responsividade para as menores telas que há pelo mercado comtemporâneo*/
 @media screen and (max-width: 460px){
 
@@ -264,7 +265,7 @@ footer .menu a{
 
     #pai p{
         margin-top: 0;
-        font-size: 1em;
+        font-size: 0.9em;
         margin-bottom: 0.5rem;
     }
 
@@ -285,9 +286,9 @@ footer .menu a{
         /*largura da img após aplicar o display block*/
     }
 
-#Three #texto{
-    padding: 1rem;
-    font-size: 1.4rem;
+#Three #texto p{
+    padding: 3rem;
+    font-size: 1.1rem;
 }
 
 #Three #texto h3{
