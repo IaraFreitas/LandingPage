@@ -2,13 +2,20 @@
 *{
 margin: 0;
 padding: 0;
-font-family: Georgia, 'Times New Roman', Times, serif;
+list-style: none;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+body {
+    height: 100vh;
+    width: 100vw;
 }
 
 /*Inicio do HEADER - cabeçalho*/
 header{
     display: flex;
-    padding: 2rem;
+    padding: 2vh;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -22,7 +29,6 @@ header{
 }
 
 .menu .Three {
-    padding: 5px 5px;
     border: solid;
 }
 
@@ -42,16 +48,15 @@ header nav li a{
 /*inicio da sessão ONE - primeira parte da landingPage*/
 #One{
     background-image: url(img/LotusTwo.jpg);
-    padding: 18rem;
+    padding: 17rem;
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
     text-align: center;
     font-size: 2em;
-    margin-top: -8rem;
+    margin-top: -90px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 1rem;
 }
 
 #One hr{
@@ -64,7 +69,7 @@ header nav li a{
 /*inicio da sessão TWO - segunda parte da landingPage*/
 #Two{
     text-align: center;
-    padding: 7rem;
+    padding: 6rem;
     background-color: rgba(128, 128, 128, 0.25);
     margin-top: 30px;
 }
@@ -117,7 +122,7 @@ header nav li a{
 }
 
 #Three #texto p{
-    padding: 6rem;
+    padding: 4rem;
     font-size: 1.5rem;
 }
 
@@ -142,7 +147,7 @@ header nav li a{
 /*inicio da sessão FOUR - quarta parte da landingPage*/
 #Four{
     background-color: rgba(128, 128, 128, 0.25);
-    padding: 7rem 9rem;
+    padding: 5rem 7rem;
     text-align: center;
 }
 
@@ -161,7 +166,6 @@ header nav li a{
     margin-left: 15px;
     background-color: rgb(232, 229, 229);
     border-color: white;
-    
 }
 
 #Four ::placeholder{
@@ -173,14 +177,13 @@ header nav li a{
     width: 13rem;
     height: 3rem;
     background-color: rgba(153, 153, 153, 0.012);
-    
 }
 
 
 /*FOOTER - rodapé*/
 footer{
     display: flex;
-    padding: 5rem;
+    padding: 3rem;
     justify-content: space-between;
     align-items: center;
     
@@ -230,7 +233,7 @@ footer .menu a{
     
     /*inicio da sessão ONE - primeira parte da landingPage*/
     #One{
-        padding: 6.5rem;
+        padding: 6.5rem 40px;
         /*deixou a img da sessão One alinhada*/
     }
 
