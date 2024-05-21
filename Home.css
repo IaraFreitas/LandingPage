@@ -221,6 +221,10 @@ footer .menu a{
         /*deixou o meu abaixo do logo*/
     }
 
+    header .menu ul{
+        display: block;
+    }
+
     header img{
         width: 3rem;
         /*tamanho do logo no topo da home*/
