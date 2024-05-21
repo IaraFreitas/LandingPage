@@ -121,6 +121,11 @@ header nav li a{
     display: flex;
 }
 
+#Three img{
+    width: 45rem; 
+    height: 40rem;
+}
+
 #Three #texto p{
     padding: 4rem;
     font-size: 1.5rem;
@@ -216,14 +221,10 @@ footer .menu a{
 @media screen and (max-width: 460px){
 
     /*Inicio do HEADER - cabeçalho*/
-    header{
-        display: block;
-        /*deixou o meu abaixo do logo*/
-    }
-
+   
     header .menu ul{
         display: block;
-    }
+    } /*deixou os itens do menu um abaixo do outro*/
 
     header img{
         width: 3rem;
@@ -239,6 +240,8 @@ footer .menu a{
     #One{
         padding: 6.5rem 40px;
         /*deixou a img da sessão One alinhada*/
+        margin-top: -70px;
+        margin-bottom: -20px;
     }
 
    #One h1{
@@ -289,25 +292,25 @@ footer .menu a{
     }
 
     #Three img{
-        width: 30rem;
+        width: 100vw;
         /*largura da img após aplicar o display block*/
     }
 
-#Three #texto p{
-    padding: 3rem;
-    font-size: 1.1rem;
-}
+    #Three #texto p{
+        padding: 3rem;
+        font-size: 1.1rem;
+    }
 
-#Three #texto h3{
-    margin-bottom: 30px;
-    text-align: center;
-}
+    #Three #texto h3{
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
-#Three #texto hr{
-    width: 5rem;
-    height: 4px;
-  
-}
+    #Three #texto hr{
+        width: 5rem;
+        height: 4px;
+    
+    }
 
 /*inicio da sessão FOUR - quarta parte da landingPage*/
 #Four{
