@@ -351,6 +351,143 @@ footer .menu a{
 }
 
 
+/*ajustar a responsividade para telas com Max-width 400px*/
+    @media screen and (max-width: 400px){
+
+    /*Inicio do HEADER - cabeçalho*/
+   
+    header .menu ul{
+        display: block;
+    } /*deixou os itens do menu um abaixo do outro*/
+
+    header img{
+        width: 3rem;
+        /*tamanho do logo no topo da home*/
+    }
+
+    header nav li a{
+        font-size: 2vh;
+        /*tamanho da letra no menu*/
+    }
+    
+    /*inicio da sessão ONE - primeira parte da landingPage*/
+    #One{
+        padding: 5rem 40px;
+        /*deixou a img da sessão One alinhada*/
+        margin-top: -70px;
+        margin-bottom: -20px;
+    }
+
+   #One h1{
+    font-size: 1.7rem;
+    margin-top: 25px;
+   }
+   
+   #One h4{
+    font-size: 1.1rem;
+    margin-top: 20px;
+   }
+
+    /*inicio da sessão TWO - segunda parte da landingPage*/
+   #Two{
+    padding: 0.6rem;
+   }
+
+   #Two h2{
+    font-size: 1.3rem;
+    margin-top: 30px;
+   }
+   
+   #pai{
+    gap: 10px;
+    }
+   
+    #Two hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #pai p{
+        margin-top: 0;
+        font-size: 0.9em;
+        margin-bottom: 0.5rem;
+    }
+
+    #pai div{
+        background-color: white;
+        width: 14rem;
+        height:17rem;
+    }
+
+    /*inicio da sessão THREE - terceira parte da landingPage*/
+
+    #Three{
+        display: block;
+    }
+
+    #Three img{
+        width: 100vw;
+        /*largura da img após aplicar o display block*/
+    }
+
+    #Three #texto p{
+        padding: 3rem;
+        font-size: 1.1rem;
+    }
+
+    #Three #texto h3{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #Three #texto hr{
+        width: 5rem;
+        height: 4px;
+    
+    }
+
+    /*inicio da sessão FOUR - quarta parte da landingPage*/
+    #Four{
+        
+        padding: 4rem 6rem;
+        text-align: center;
+    }
+
+    #Four h2{
+        margin-bottom: 2rem;
+    }
+
+    #Four input{
+        width: 15rem;
+    }
+
+    #Four ::placeholder{
+        margin-left: 2rem;
+    }
+
+    /*FOOTER - rodapé*/
+    footer{
+        display: block;
+        padding: 2rem;
+    }
+
+    footer .redeSocial{
+        display: block;
+    }
+
+    footer .menu {
+        display: block;
+        margin-top: 10px;
+    }
+
+    footer .menu a{
+        font-size: 1em;
+    }
+
+
+
+
+
 
 
 }
