@@ -449,8 +449,8 @@ footer .menu a{
 
     /*inicio da sessão FOUR - quarta parte da landingPage*/
     #Four{
-        
-        padding: 4rem 6rem;
+        align-items: center;
+        padding: 4rem 3.5rem;
         text-align: center;
     }
 
@@ -458,12 +458,22 @@ footer .menu a{
         margin-bottom: 2rem;
     }
 
+    #Four h3{
+        text-align: center;
+    }
+
     #Four input{
-        width: 15rem;
+        width: 14rem;
+        align-items: center;
+        margin-left: -8px;
     }
 
     #Four ::placeholder{
-        margin-left: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    #Four a button{
+        margin-left: -8px;
     }
 
     /*FOOTER - rodapé*/
@@ -486,10 +496,5 @@ footer .menu a{
     }
 
 
-
-
-
-
-
 }
-    
+
