@@ -154,6 +154,7 @@ header nav li a{
     background-color: rgba(128, 128, 128, 0.25);
     padding: 5rem 7rem;
     text-align: center;
+    align-items: center;
 }
 
 #Four h2{
