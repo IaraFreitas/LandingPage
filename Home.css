@@ -6,11 +6,11 @@ list-style: none;
 font-family: 'Times New Roman', Times, serif;
 }
 
-/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+/* Chamamos o body para limitar o tamanho da altura e tamanho da página
 body {
     height: 100vh;
     width: 100vw;
-}
+} */
 
 /*Inicio do HEADER - cabeçalho*/
 header{
